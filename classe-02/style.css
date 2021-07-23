@@ -7,13 +7,80 @@ body {
   justify-content: center;
   align-items: center;
 
+  background-color: rgb(105, 78, 78);
+
   min-height: 100vh;
 }
+h1{
+  color: rgb(216, 48, 48);
+  text-shadow: 2px 2px 7px rgb(255, 0, 0);
+}
+h2{
+  align-self: center;
 
+  color: rgb(122, 0, 0);
+  text-shadow: 5px 5px 50px rgb(107, 0, 0);
+}
+span{
+  color: #310000;
+  text-shadow: 2px 2px 7px rgb(107, 0, 0);
+}
 input {
   margin-bottom: 16px;
 }
 
+.mb-3{
+  margin-bottom: 30px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  box-shadow: 1px 8px 18px rgb(107, 0, 0);
+  border-radius: 10px;
+  
+  background-color: rgb(236, 200, 200);
+  
+  border: 3px solid rgb(168, 0, 0);
+  
+  padding: 25px 50px;
+}
+
+.card label{
+  color: #310000;
+  text-shadow: 2px 2px 7px rgb(107, 0, 0);
+
+  margin-bottom: 10px;
+}
+
+.card input{
+  text-align: center;
+  
+  border-radius: 10px;
+
+  
+  margin-bottom: 20px;
+}
+.input-color--padrao{
+  all: unset;
+  cursor: text;
+
+  color: rgb(236, 200, 200);
+
+  box-shadow: 3px 5px 8px rgb(107, 0, 0);
+  
+  background-color: #310000;
+}
+
 .acerto {
-  border: 3px solid green;
+  all: unset;
+  cursor: text;
+  
+  color: rgb(0, 27, 0);
+  
+  box-shadow: 3px 5px 8px rgb(0, 44, 0);
+  
+  background-color: rgb(2, 175, 2);
 }
